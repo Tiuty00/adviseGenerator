@@ -1,0 +1,136 @@
+* {
+      font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+      background-color: hsl(218, 23%, 16%);
+      display:flex; 
+      flex-direction:column; 
+      justify-content:center;
+      align-items: center;
+      min-height:100dvh;
+      margin: 0;
+      
+}
+
+main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+}
+
+.container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20%;
+      height: max-content;
+      width: 400px;
+      background-color: hsl(217, 19%, 24%);
+      border-radius: 15px;
+      position: relative;
+}
+
+.mobile-divider {
+      display: none;
+}
+
+h1 {
+      color: hsl(150, 100%, 66%);
+      font-size: 0.7rem;
+      letter-spacing: 5px;
+}
+
+p {
+      color: hsl(193, 38%, 86%);
+      font-size: 1.8rem;
+}
+
+button {
+      border-radius: 100%;
+      border: none;
+      padding: 4%;
+      display: flex;
+      background-color: hsl(150, 100%, 66%);
+      margin-top: 10%;
+      position: absolute;
+      bottom: -35px;
+      cursor: pointer;
+      transition: transform ease 0.5s, box-shadow ease 0.5s;
+}
+
+button:hover {
+      background-color: hsl(150, 100%, 66%);
+      box-shadow: 5px 5px 40px 6px hsl(150, 100%, 66%);
+}
+
+form {
+      display: contents;
+}
+
+footer a {
+      text-decoration: none;
+      color: hsl(150, 100%, 66%);
+}
+footer a:hover {
+      color: hsl(150, 59%, 47%);
+}
+
+.attribution {
+      position: relative;
+      top: 70px;
+      color: hsl(193, 38%, 86%) ;
+      font-size: 0.8rem;
+}
+
+@media (max-width: 600px) {
+      .container {
+            padding: 15%;
+            width: 50%;
+      }
+
+      img {
+            max-width: 100%;
+      }
+
+      .mobile-divider {
+            display: block;
+      }
+      .desktop-divider {
+            display: none;
+      }
+
+      h1 {
+            font-size: 0.6rem;
+      }
+      
+      p {
+            font-size: 1.4rem;
+      }
+}
+
+ @media (max-width: 430px) {
+      .container {
+            padding: 12% 5%;
+            width: 75%;
+      }
+
+      h1 {
+            font-size: 0.5rem;
+      }
+      
+      p {
+            font-size: 1.2rem;
+      }
+
+      button {
+            bottom: -25px;
+      }
+
+      .attribution {
+            font-size: 0.6rem;
+      }
+
+}
