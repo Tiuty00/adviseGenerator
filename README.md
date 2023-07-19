@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop View <img src=https://github.com/Tiuty00/adviseGenerator/blob/main/screemshots/desktop-screenshot.png/>
+Desktop View <img src=https://github.com/Tiuty00/adviseGenerator/blob/main/screenshots/desktop-screenshot.png/>
 
-mobile View <img src=https://github.com/Tiuty00/adviseGenerator/blob/main/screemshots/mobile-screenshot.png/ width="400"/>
+mobile View <img src=https://github.com/Tiuty00/adviseGenerator/blob/main/screenshots/mobile-screenshot.png/ width="400"/>
 
 ### Links
 
