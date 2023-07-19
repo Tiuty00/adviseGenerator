@@ -28,17 +28,7 @@ app.get("/", (req, res) => {
 
 app.post("/", (req, res) => {
   // On click button, redirect to index.ejs
-  https.get("https://api.adviceslip.com/advice", (response) => {
-    response.on("data", (data) => {
-      const advices = JSON.parse(data);
-      const id = advices.slip.id;
-      const advice = advices.slip.advice;
-      res.render("index", {
-        id: id,
-        advice: advice,
-      });
-    });
-  });
+  res.redirect("/") 
 });
 
 // Load page on server port online or 3000 local
